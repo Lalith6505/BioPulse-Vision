@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioPulse Vision — Micro-Vascular Blood Flow & Perfusion Mapper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container nav-container">
+            <div class="logo-group">
+                <img src="assets/icon.png" alt="BioPulse Vision Logo">
+                <h1>BioPulse Vision</h1>
+            </div>
+            <nav>
+                <a href="index.html" class="active">Overview</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <div class="badge-pill">EULERIAN VIDEO MAGNIFICATION (EVM) &bull; rPPG OPTICAL VITALS &bull; 100% OFFLINE</div>
+            <h2>Micro-Vascular Blood Flow & Perfusion Mapper</h2>
+            <p>Clinical-grade non-contact optical hemodynamics revealing invisible capillary pulses, 2D perfusion heatmaps, and vital signs in real time at 60 FPS.</p>
+            <img src="assets/feature_graphic.png" alt="BioPulse Vision Banner" class="banner-img">
+        </section>
+
+        <section class="features-grid">
+            <div class="feature-card">
+                <h3>Eulerian Video Magnification (EVM)</h3>
+                <p>Multi-scale Laplacian spatial pyramid decomposition amplifying subtle sub-surface capillary blood flow from 10x to 150x optical gain.</p>
+            </div>
+            <div class="feature-card">
+                <h3>2D Perfusion Thermogram</h3>
+                <p>Real-time false-color tissue oxygenation heatmaps mapping micro-vascular density across facial, malar, and fingertip capillary beds.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Non-Contact rPPG Waveform</h3>
+                <p>Crisp optical photoplethysmogram displaying systolic peaks, dichrotic notches, and diastolic runoff curves with live Heart Rate and Perfusion Index (PI).</p>
+            </div>
+            <div class="feature-card">
+                <h3>Cardiovascular Biomarkers</h3>
+                <p>Quantifies Pulse Transit Time (PTT), Capillary Refill Kinetics, and Pulse Wave Velocity (PWV) without sensors or wearable attachments.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Clinical Optical Vault</h3>
+                <p>Save historical session records with physiological notes, multi-zone comparisons, and uncompressed CSV biometric data exports.</p>
+            </div>
+            <div class="feature-card">
+                <h3>100% Private & Ad-Free</h3>
+                <p>Zero cloud connections, zero telemetry libraries, and zero recurring fees. Video frames are processed entirely in local device memory.</p>
+            </div>
+        </section>
+
+        <section class="specs-section">
+            <h3>Technical Architecture Specifications</h3>
+            <table class="specs-table">
+                <tr>
+                    <td>Optical Magnification Architecture</td>
+                    <td>Eulerian Video Magnification (EVM) with Laplacian Pyramid Decomposition</td>
+                </tr>
+                <tr>
+                    <td>Temporal Filtering</td>
+                    <td>Butterworth Bandpass (0.75 Hz to 3.5 Hz / 45-210 BPM)</td>
+                </tr>
+                <tr>
+                    <td>Photometric Analysis</td>
+                    <td>Green-Channel Hemoglobin Absorption Photoplethysmography (rPPG)</td>
+                </tr>
+                <tr>
+                    <td>Inference Engine</td>
+                    <td>60 FPS On-Device NPU / GPU Acceleration</td>
+                </tr>
+                <tr>
+                    <td>Package Name</td>
+                    <td>com.biopulse.vision</td>
+                </tr>
+                <tr>
+                    <td>Operating Mode</td>
+                    <td>100% Offline Edge Execution / Zero Telemetry</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 BioPulse Vision. Built with Jetpack Compose & Eulerian Optical Signal Processing.</p>
+    </footer>
+</body>
+</html>
